@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/max/projects/Ambimaxer/main.cpp
+iostream
+-
+fstream
+-
+string.h
+-
+boost/filesystem.hpp
+-
+
